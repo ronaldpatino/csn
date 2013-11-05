@@ -15,9 +15,8 @@
 
 <body>
 
-<div class="container-narrow">
-
-    <div class="masthead">
+<div class="container">
+    <div class="row">
         <div class="span4">
             <img src="img/logo.png">
         </div>
@@ -30,53 +29,48 @@
             </div>
         </div>
     </div>
+</div>
 
-    <div class="row">
-        <div id="myCarousel" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img src="img/banner1.png" alt="">
-                    <div class="carousel-caption">
-                        <h4>First Thumbnail label</h4>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                </div>
-                <div class="item active">
-                    <img src="assets/img/banner1.png" alt="">
-                    <div class="carousel-caption">
-                        <h4>Second Thumbnail label</h4>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                </div>
+<div class="container">
 
-                <div class="item">
-                    <img src="assets/img/banner1.png" alt="">
-                    <div class="carousel-caption">
-                        <h4>Second Thumbnail label</h4>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                </div>
+    <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+        <div class="carousel-inner">
+            <div class="item active"><!-- class of active since it's the first item -->
+                <img src="img/banner1.png" alt=""/>
 
+                <div class="carousel-caption">
+                    <p>Caption text here</p>
+                </div>
             </div>
-            <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-            <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+            <div class="item">
+                <img src="img/banner1.png" alt=""/>
+
+                <div class="carousel-caption">
+                    <p>Caption text here</p>
+                </div>
+            </div>
         </div>
+        <!-- /.carousel-inner -->
+        <!--  Next and Previous controls below
+              href values must reference the id for this carousel -->
+        <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
     </div>
-    <br/>
+    <!-- /.carousel -->
+
+</div>
+
+<div class="container">
     <div class="row">
         <div class="span3"><img src="img/productos-ahorro-programado.png"></div>
         <div class="span3"><img src="img/productos-plazo-fijo.png"></div>
         <div class="span3"><img src="img/productos-credi-salud.png"></div>
         <div class="span3"><img src="img/productos-pagos-envios-recargs.png"></div>
-
     </div>
-
     <hr>
-
     <div class="footer">
         <p>&copy; 2013 | Todos los derechos reservados | Coacsantana</p>
     </div>
-
 </div>
 <!-- /container -->
 
