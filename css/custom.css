@@ -162,7 +162,15 @@ body {
     opacity: .9;
     font-weight: 600;
 }
-.navbar-centro .navbar-inner .nav li a:hover {
+
+.active{
+    background: #f67d0f;
+}
+
+.navbar-harvest .navbar-inner .nav li.active a {
+    color: #FFFFFF;
+}
+.navbar-centro .navbar-inner .nav li a:hover  {
     background: #f67d0f;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
